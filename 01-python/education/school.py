@@ -1,3 +1,5 @@
 def draw_school():
-    print("school not found")
-    return
+    # image = Image.open('/Users/preshitadave/Downloads/school.jpg')
+    # image.show()
+    print("school found")
+    return 
