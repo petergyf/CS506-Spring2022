@@ -62,6 +62,14 @@ Run the tests with the following command
     tox 
 ```
 
+### Removing cache 
+
+Run the following command to remove cache from the tox environment after every run. 
+
+```bash
+    rm -rf .tox
+```
+
 Ensure that all the tests are failing because of a "NotImplementedError" being raised. Here is the expected last few lines of the error message from tox you should expect:
 
 ```
